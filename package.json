@@ -29,6 +29,7 @@
     "build": "scripty",
     "lint": "scripty",
     "test": "scripty",
+    "version": "lerna version",
     "bootstrap": "lerna bootstrap --force-local"
   },
   "scripty": {
