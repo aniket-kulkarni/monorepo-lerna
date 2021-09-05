@@ -29,7 +29,7 @@
     "build": "scripty",
     "lint": "scripty",
     "test": "scripty",
-    "versions": "lerna version",
+    "akversions": "lerna version",
     "bootstrap": "lerna bootstrap --force-local"
   },
   "scripty": {
