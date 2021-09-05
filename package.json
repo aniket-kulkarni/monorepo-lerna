@@ -13,6 +13,19 @@
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
     "eslint": "^7.32.0",
-    "rimraf": "^3.0.2"
+    "lerna": "^4.0.0",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
+  },
+  "scripts": {
+    "links": "lerna link",
+    "clean": "scripty",
+    "build": "scripty",
+    "lint": "scripty",
+    "test": "scripty",
+    "bootstrap": "lerna bootstrap --force-local"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
   }
 }
