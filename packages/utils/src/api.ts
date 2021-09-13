@@ -31,7 +31,7 @@ export function useAsyncDataEffect<T>(
         if (!cancelled) {
           console.info(
             "%c Updating state: " + stateName,
-            "background: green; color: #fff; display: block;"
+            "background: green; color: #ffff; display: block;"
           );
           setter(data);
         }
