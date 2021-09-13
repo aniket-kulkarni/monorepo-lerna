@@ -2,8 +2,8 @@
   "name": "js-ts-monotrepos",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:mike-north/js-ts-monorepos.git",
-  "author": "Mike North <michael.l.north@gmail.com>",
+  "repository": "git@github.com:aniket-kulkarni/monorepo-lerna.git",
+  "author": "Aniket Kulkarni <michael.l.north@gmail.com>",
   "license": "BSD-2-Clause",
   "private": true,
   "workspaces": [
@@ -24,28 +24,13 @@
     "scripty": "^2.0.0"
   },
   "scripts": {
-    "links": "lerna link",
     "clean": "scripty",
     "build": "scripty",
     "lint": "scripty",
     "test": "scripty",
-    "akversions": "lerna version",
-    "bootstrap": "lerna bootstrap --force-local",
     "prepare": "husky install"
   },
   "scripty": {
     "path": "./scripts/workspace"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "changelog": {
-    "labels": {
-      "feature": "New Feature",
-      "feat": "New Feature",
-      "bug": "Bug Fix"
-    }
   }
 }
