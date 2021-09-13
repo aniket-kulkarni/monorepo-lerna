@@ -1,4 +1,9 @@
 {
-    "files": [],
-    "references": [{ "path": "./utils" }, { "path": "./types" }]
+  "files": [],
+  "references": [
+    { "path": "./utils" },
+    { "path": "./types" },
+    { "path": "./ui" },
+    { "path": "./data" }
+  ]
 }
