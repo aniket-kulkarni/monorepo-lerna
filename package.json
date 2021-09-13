@@ -39,5 +39,12 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "changelog": {
+    "labels": {
+      "feature": "New Feature",
+      "feat": "New Feature",
+      "bug": "Bug Fix"
+    }
   }
 }
