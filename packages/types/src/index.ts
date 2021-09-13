@@ -1,7 +1,7 @@
 /**
  * @packageDocumentation
  *
- * <img src="https://placecorgi.herokuapp.com/300/250" align="right" />
+ * <img src="https://placecorgi.herokuapp.com/300/250" align="left" />
  *
  * <h3>Why does this library exist?</h3>
  *
