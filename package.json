@@ -28,7 +28,9 @@
     "build": "scripty",
     "lint": "scripty",
     "test": "scripty",
-    "prepare": "husky install"
+    "dev": "scripty",
+    "prepare": "husky install",
+    "start": "node packages/ui/server/server.js"
   },
   "scripty": {
     "path": "./scripts/workspace"
