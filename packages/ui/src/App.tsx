@@ -14,6 +14,8 @@ import TeamSelector from "./components/TeamSelector";
 
 const { useState } = React;
 
+console.log('Hello');
+
 const App: React.FunctionComponent = () => {
   const [teams, setTeams] = useState<ITeam[]>();
 

@@ -9,6 +9,6 @@
       "noUnusedParameters": true,
       "noImplicitReturns": true,
       "declaration": true,
-      "skipLibCheck": true // ideally done use
+      "skipLibCheck": true // ideally dont use
     }
 }

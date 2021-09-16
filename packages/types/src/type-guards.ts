@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { IChannel, IMessage, ITeam } from "./types";
+console.log('Hello from legacy');
 
 /**
  * Check whether a given value is an array where
