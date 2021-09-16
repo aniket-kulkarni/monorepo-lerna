@@ -49,3 +49,7 @@ export interface IChannel {
   id: string;
   messages: IMessage[];
 }
+
+export interface Test {
+  test: string;
+}
