@@ -1,6 +1,6 @@
 {
   "name": "@shlack/data",
-  "version": "10.1.1",
+  "version": "10.1.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -23,7 +23,7 @@
     "path": "../../scripts/packages"
   },
   "dependencies": {
-    "@shlack/types": "^10.1.0",
+    "@shlack/types": "^10.1.2",
     "@shlack/utils": "^10.1.1"
   }
 }
